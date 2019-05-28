@@ -16,6 +16,13 @@
                     </span>
                 </a>
             </li>
+            <!--
+            <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                <a class="nav-link" routerLink="coverb" (click)="collapseNavbar()">
+                    <fa-icon [icon]="'cube'" [fixedWidth]="true"></fa-icon>
+                    <span jhiTranslate="global.menu.coverb">Coverb</span>
+                </a>
+            </li>-->
             <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
             <li *ngSwitchCase="true" ngbDropdown class="nav-item dropdown pointer" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="entity-menu">
@@ -102,6 +109,7 @@
                     </li>
                 </ul>
             </li>
+            <!--
             <li ngbDropdown class="nav-item dropdown pointer" placement="bottom-right" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
                 <a class="nav-link dropdown-toggle" ngbDropdownToggle href="javascript:void(0);" id="account-menu">
                   <span *ngIf="!getImageUrl()">
@@ -146,7 +154,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li>-->
         </ul>
     </div>
 </nav>
