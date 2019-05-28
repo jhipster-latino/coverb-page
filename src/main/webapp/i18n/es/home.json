@@ -1,19 +1,21 @@
 {
   "home": {
-    "title": "¡Bienvenido, Java Hipster!",
-    "subtitle": "Esta es su página de inicio",
-    "logged": {
-      "message": "Está conectado como \"{{username}}\"."
+    "page": {
+      "title": "Coverb"
     },
-    "question": "Si tiene preguntas sobre JHipster:",
-    "link": {
-      "homepage": "Página de inicio de JHipster",
-      "stackoverflow": "JHipster en Stack Overflow",
-      "bugtracker": "JHipster seguimiento de errores",
-      "chat": "Sala de chat pública de JHipster",
-      "follow": "contacto @java_hipster en Twitter"
+    "title": "Que es coverb?",
+    "description": "Es un generador de páginas para aplicacion tipo jhipster",
+    "feature": {
+      "title": "Características",
+      "description": "Que ofrecemos?"
     },
-    "like": "Si te gusta JHipster, danos una estrella en",
-    "github": "GitHub"
+    "portafolio": {
+      "title": "Portafolio",
+      "description": "Que se ha creado hasta el momento?"
+    },
+    "demo": {
+      "title": "Demostración",
+      "description": "Pruebe las páginas disponibles para su aplicación tipo jhipster"
+    }
   }
 }
